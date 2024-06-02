@@ -8,9 +8,9 @@
 <hr>
 
 **Implementation done with:**
-- **Vite React -** 
-- **Tailwind CSS -** 
-- **React router -**
+- **Vite React** 
+- **Tailwind CSS** 
+- **React router**
 
 
 <hr>
@@ -20,14 +20,13 @@
 **1. Clone this repo**
 
 ```
-git clone https://github.com/Arioum/.git
+git clone https://github.com/Arioum/uifry-assessment.git
 ```
 
 **2. Do the following steps:**
 
 ```
-cd assessment-
-cd Q3
+cd uifry-assessment
 npm install
 ```
 
@@ -50,7 +49,7 @@ npm run dev
 <br>
 
 **Optionally you can view this app hosted on vercel here:**
-https://.vercel.app
+https://uifry-assessment.vercel.app/
 
 
 
