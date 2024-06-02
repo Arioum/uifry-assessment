@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <section className='container mt-[68px]'>
+    <section className='container mt-[68px] lg:mt-0'>
       <h3 className='text-[18px] text-[#FF5555] tracking-[1.6px] mb-[4px] xl:text-[16px]'>
         FAQ
       </h3>

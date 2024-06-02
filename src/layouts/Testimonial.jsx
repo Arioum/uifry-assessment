@@ -1,6 +1,6 @@
 const Testimonial = () => {
   return (
-    <section className='container pb-[265px] pt-[50px]'>
+    <section className='container pb-[265px] pt-[50px] lg:pb-[180px]'>
       <div className='relative'>
         <h3 className='text-[18px] tracking-[1.6px] mb-[4px] text-center xl:text-[16px]'>
           TESTIMONIAL

@@ -1,6 +1,6 @@
 const Advantages = () => {
   return (
-    <section className='container lg:mt-[60px]'>
+    <section className='container lg:mt-[200px]'>
       {/* Advantage 1 - graphic img to the right */}
       <div className='grid grid-cols-12 gap-[20px] items-center lg:flex lg:flex-col'>
         <div className='col-span-6 flex flex-col gap-[32px] py-[130px] lg:order-1 lg:py-0'>
