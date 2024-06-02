@@ -1,0 +1,97 @@
+const Footer = () => {
+  return (
+    <footer className='container mb-[40px] pt-[155px]'>
+      <div className='flex justify-between gap-[65px]'>
+        <div className='flex flex-col gap-[16px]'>
+          <div>
+            <img src='/logo.svg' alt='uifry' />
+          </div>
+          <div className='flex gap-[8px]'>
+            <img src='/email-icon.svg' alt='email' />
+            <span className='capitalize'>help@frybix.com</span>
+          </div>
+          <div className='flex gap-[8px]'>
+            <img src='/phone-icon.svg' alt='phone' />
+            <span>+1 234 456 678 89</span>
+          </div>
+        </div>
+
+        <div className='flex gap-[4rem]'>
+          <div className='flex flex-col gap-[16px]'>
+            <h6 className='text-[32px]'>Links</h6>
+            <ul className='flex flex-col gap-[16px]'>
+              <li>
+                <a href='/'>Home</a>
+              </li>
+              <li>
+                <a href='/'>About Us</a>
+              </li>
+              <li>
+                <a href='/'>Bookings</a>
+              </li>
+              <li>
+                <a href='/'>Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div className='flex flex-col gap-[16px]'>
+            <h6 className='text-[32px]'>Legal</h6>
+            <ul className='flex flex-col gap-[16px]'>
+              <li>
+                <a href='/'>Terms Of Use</a>
+              </li>
+              <li>
+                <a href='/'>Privacy Policy</a>
+              </li>
+              <li>
+                <a href='/'>Cookie Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div className='flex flex-col gap-[16px]'>
+            <h6 className='text-[32px]'>Product</h6>
+            <ul className='flex flex-col gap-[16px] leading-[1.5]'>
+              <li>
+                <a href='/'>Take Tour</a>
+              </li>
+              <li>
+                <a href='/'>Live Chat</a>
+              </li>
+              <li>
+                <a href='/'>Reviews</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Newsletter */}
+        <div className='flex flex-col gap-[16px]'>
+          <h6 className='text-[32px]'>Newsletter</h6>
+          <span>Stay Up To Date</span>
+          {/* Input field */}
+          <div className='bg-[#fff] max-w-[340px] h-[80px] flex items-center rounded-[4px] px-[10px] shadow-[-13.01px_13.01px_104.09px_0px_#A1A1A129]'>
+            <input
+              type='email'
+              name='email'
+              placeholder='Your email'
+              className='max-h-[100%] focus:outline-none min-w-[160px] pl-[10px] placeholder:text-[#81848A]'
+            />
+            <button className='min-w-[160px] h-[60px] bg-[#000] text-[#fff] rounded flex-1'>
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className='mt-[92px]'>
+        <hr className='border-0 h-[1px] bg-gradient-to-r from-[#16161600] via-[#696969] to-[#16161600]' />
+        <p className='p-[36px_10px] text-center capitalize'>
+          Copyright 2022 uifry.com all rights reserved
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
